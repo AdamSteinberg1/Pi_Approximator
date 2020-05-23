@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_Approximator2", "PI_Approximator2\PI_Approximator2.csproj", "{B68E1966-6476-4F5D-A62A-45AD1D37D0A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PI_Approximator", "PI_Approximator2\PI_Approximator.csproj", "{B68E1966-6476-4F5D-A62A-45AD1D37D0A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
