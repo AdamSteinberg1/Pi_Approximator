@@ -37,6 +37,7 @@
             this.Decrement = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.OuterLabel = new System.Windows.Forms.Label();
+            this.attribution = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // numSidesBox
@@ -121,12 +122,23 @@
             this.OuterLabel.TabIndex = 7;
             this.OuterLabel.Text = "Circumscribed Perimeter: ";
             // 
+            // attribution
+            // 
+            this.attribution.AutoSize = true;
+            this.attribution.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.attribution.Location = new System.Drawing.Point(0, 527);
+            this.attribution.Name = "attribution";
+            this.attribution.Size = new System.Drawing.Size(136, 13);
+            this.attribution.TabIndex = 8;
+            this.attribution.Text = "Created by Adam Steinberg";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(1313, 743);
+            this.ClientSize = new System.Drawing.Size(1092, 540);
+            this.Controls.Add(this.attribution);
             this.Controls.Add(this.OuterLabel);
             this.Controls.Add(this.Decrement);
             this.Controls.Add(this.Increment);
@@ -153,6 +165,7 @@
         private System.Windows.Forms.Button Decrement;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Label OuterLabel;
+        private System.Windows.Forms.Label attribution;
     }
 }
 
